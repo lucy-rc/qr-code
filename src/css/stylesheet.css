@@ -16,7 +16,7 @@ body {
 .card {
     background-color: #fffffd;
     width: 220px;
-    height: 360px;
+    height: 400px;
     padding: 10px;
     flex-direction: column;
     border-radius: 20px;
@@ -30,6 +30,7 @@ body {
 }
 
 .title-card {
+    padding-top: 20px;
     text-align: center;
     font-weight: 700;
     color: #22345a;
@@ -37,10 +38,10 @@ body {
 }
 
 p {
-    padding-top: 15px;
+    padding: 10px;
     font-size: 15px;
-    font-weight: 400;
     text-align: center;
+    color: #99a9bb;
 }
 
 footer {
