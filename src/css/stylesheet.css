@@ -6,11 +6,9 @@
 body {
     background-color: #d5e1ef;
     font-family: 'Outfit', sans-serif;
-    max-width: 1920px;
-    padding-top: 75px;
+    align-items: center;
     display: flex;
     justify-content: center;
-
 }
 
 .card {
@@ -21,7 +19,11 @@ body {
     flex-direction: column;
     border-radius: 20px;
     margin: auto;
-
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .imagem-qrcode {
@@ -52,6 +54,7 @@ footer {
     width: 95%;
     text-align: center;
     margin: auto;
+    align-items: center;
 }
 
 .attribution {
