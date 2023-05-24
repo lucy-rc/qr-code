@@ -1,48 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #d5e1ef;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Outfit', sans-serif;
     max-width: 1920px;
-    margin: 0 auto;
     padding-top: 75px;
+    display: flex;
+    justify-content: center;
+
 }
 
-main {
-    align-items: center;
-}
-
-main .card {
+.card {
     background-color: #fffffd;
 	width: 220px;
+    height: 360px;
 	padding: 10px;
 	flex-direction: column;
-	align-items: center;
 	border-radius: 20px;
     margin: auto;
+
 }
 
-main .card img {
+.imagem-qrcode {
     width: 220px;
     border-radius: 20px;
 }
 
-main .attribution {
+.title-card {
+    text-align: center;
+    font-weight: 700;
+    color: #22345a;
+    font-size: 19px;
+}
+
+p {
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+footer {
+position: fixed;  
+left: 10px;  
+bottom: 10px;  
+right: 10px;   
+width: 95%; 
+text-align: center;
+margin: auto;
+}
+
+.attribution {
     padding-top: 12px;
     font-size: 15px;
-    text-align: center;
 }
 
-main .first {
-    text-align: center;
-    color: #22345a;
-    font-size: 16px;
-}
-
-main .second {
-    text-align: center;
-    color: #97989d;
-    font-size: 13px;
-}
-
-main .attribution a {
+.attribution a {
     color: #3e52a3;
 }
